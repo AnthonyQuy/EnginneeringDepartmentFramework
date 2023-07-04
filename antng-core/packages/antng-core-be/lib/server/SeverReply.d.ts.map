@@ -1,0 +1,1 @@
+{"version":3,"file":"SeverReply.d.ts","sourceRoot":"","sources":["../../src/server/SeverReply.ts"],"names":[],"mappings":"AAAA,OAAO,aAAa,MAAM,iBAAiB,CAAC;AAC5C,OAAO,EAAE,YAAY,EAAE,MAAM,SAAS,CAAC;AAEvC,MAAM,WAAW,UAAW,SAAQ,YAAY;IAC9C,SAAS,CACP,IAAI,EAAE,MAAM,EACZ,KAAK,EAAE,MAAM,EACb,OAAO,CAAC,EAAE,aAAa,CAAC,sBAAsB,GAC7C,IAAI,CAAC;CACT"}

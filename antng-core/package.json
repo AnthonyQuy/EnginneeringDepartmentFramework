@@ -1,0 +1,25 @@
+{
+  "name": "antng-core",
+  "author": "Anthony Nguyen",
+  "license": "ISC",
+  "homepage": "",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "run-p clean:*",
+    "clean:build": "rimraf ./packages/*/lib",
+    "clean:cache": "rimraf .eslintcache",
+    "clean:package_modules": "rimraf ./packages/*/node_modules",
+    "clean-pkglock": "rimraf ./packages/*/package-lock.json",
+    "sample:be": "cd ./examples/be && npm run start",
+    "rebuild": "run-s clean build"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "lerna": "^7.0.2"
+  }
+}

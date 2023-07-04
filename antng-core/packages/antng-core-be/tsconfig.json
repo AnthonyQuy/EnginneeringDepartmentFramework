@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "types": ["@antng-core/logger/types"]
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules", "lib"]
+}

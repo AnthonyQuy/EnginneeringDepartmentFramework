@@ -1,0 +1,23 @@
+{
+  "name": "be-example",
+  "author": "Anthony Nguyen",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "getUrl": ""
+  },
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm ./runner.ts"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@antng-core/be": "*",
+    "@antng-core/logger": "workspace:*",
+    "ts-node": "^10.9.1"
+  }
+}

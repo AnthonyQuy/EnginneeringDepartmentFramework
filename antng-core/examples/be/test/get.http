@@ -1,0 +1,27 @@
+GET http://localhost:3000/
+content-type: application/json
+###
+GET http://localhost:3000/pathA
+content-type: application/json
+###
+GET http://localhost:3000/pathA/1
+content-type: application/json
+###
+GET http://localhost:3000/pathA/2
+content-type: application/json
+###
+GET http://localhost:3000/pathA/2?a=1&b=2
+content-type: application/json
+
+{ "a" : 1 }
+###
+GET http://localhost:3000/pathA/2?a=1&b=2
+content-type: text/plain
+Cookie: _ga=GA1.2.1058816595.1593268731; SESSION=MDgyOTM4NDAtYmQ1OS00MWIyLWJjYjktZThmMmM2YmEzMzAz
+asdflk
+###
+GET http://localhost:3000/pathB/2
+content-type: application/json
+###
+GET http://localhost:3000/pathB/1
+content-type: application/json

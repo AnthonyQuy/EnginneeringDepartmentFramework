@@ -1,0 +1,6 @@
+POST http://localhost:3000/login
+content-type: application/json
+Cookie: _ga=GA1.2.1058816595.1593268731; SESSION=MDgyOTM4NDAtYmQ1OS00MWIyLWJjYjktZThmMmM2YmEzMzAz
+
+{"username":"contour-user","password":"password"}
+###

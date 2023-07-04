@@ -1,0 +1,14 @@
+{
+  "name": "@antng/config",
+  "author": "Anthony Nguyen",
+  "license": "UNLICENSED",
+  "version": "3.2.15",
+  "description": "",
+  "homepage": "",
+  "contributors": [],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "getUrl": ""
+  }
+}

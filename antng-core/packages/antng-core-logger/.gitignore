@@ -1,0 +1,11 @@
+node_modules/
+lib
+examples/**/reports/**
+examples/**/screenshots
+examples/**/logs
+examples/**/visual-regression/.tmp
+examples/**/node_modules
+.eslintcache
+docs
+.DS_Store
+.vscode

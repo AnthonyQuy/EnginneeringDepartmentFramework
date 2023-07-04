@@ -1,0 +1,1 @@
+{"version":3,"file":"ServerRule.d.ts","sourceRoot":"","sources":["../../src/server/ServerRule.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,cAAc,EAAE,MAAM,qBAAqB,CAAC;AACrD,qBAAa,UAAW,YAAW,QAAQ;IACzC,IAAI,EAAE,MAAM,CAAC;IACb,SAAS,EAAE,cAAc,EAAE,CAAC;gBAChB,IAAI,EAAE,QAAQ;CA8C3B"}

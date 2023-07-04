@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "module": "Node16",
+    "lib": ["ES2022", "dom"],
+    "moduleResolution": "Node16",
+    "resolveJsonModule": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2022",
+    "types": ["@antng-core/be/types", "@antng-core/logger/types"]
+  },
+  "exclude": ["node_modules"]
+}

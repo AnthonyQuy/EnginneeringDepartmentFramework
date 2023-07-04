@@ -1,0 +1,34 @@
+{
+  "name": "@antng-core/logger",
+  "author": "Contour Network",
+  "license": "UNLICENSED",
+  "version": "3.2.15",
+  "description": "",
+  "homepage": "https://bitbucket.org/contournetworkdelivery/contour-test-core",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "getUrl": "git@bitbucket.org:contournetworkdelivery/contour-test-core.git"
+  },
+  "files": [
+    "/lib"
+  ],
+  "exports": {
+    ".": "./lib/index.js",
+    "./types": "./types.d.ts",
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "run-s clean:* compile:*",
+    "clean:build": "rimraf lib",
+    "compile:build": "tsc",
+    "build:watch": "rimraf lib && tsc -w"
+  },
+  "type": "module",
+  "keywords": [],
+  "dependencies": {
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {}
+}

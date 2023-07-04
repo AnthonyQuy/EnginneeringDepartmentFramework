@@ -1,0 +1,1 @@
+{"http":{"enable":true,"rules":"./rules/**/*.ts","responsesDir":"./responses","port":3000},"tcp":{"enable":false,"port":1037},"logLevel":"debug"}
